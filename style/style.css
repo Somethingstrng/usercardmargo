@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    background:rgb(216, 234, 250);
+}
+
+.usercard {
+    width: 400px;
+    height: 550px;
+    min-width: 200px;
+    max-width: 1000px;
+    background-color: white;
+    margin: center;
+    margin-top: 50px;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.cardimg {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    display: inline-block;
+    border: 5px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+}
+
+.cardimg > img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.userstat {
+    padding: 20px;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 50px;
+    
+}
+
+.userinfo > h3 {
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.userstatcont {
+    position: relative;
+    top: 45px;
+    width: 100%;
+    background-color: rgb(32, 32, 94);
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.userinfo > span {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.userinfo {
+    position: relative;
+    top: 20px;
+}
+
+.userstatname {
+    font-weight: bold;
+}
+
+.usercard > * {
+    display: block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.followbutton {
+    background-color: rgb(107, 170, 253);
+    color: black;
+    border: 2px solid rgb(113, 129, 173);
+    width:120px;
+	height:30px;
+	margin-left:50px;
+	margin-top:50px;
+	display:block;
+    text-align: center;
+    margin: 50px auto 0 auto;
+    padding-top: 1px;
+    position: relative;
+    top: 20px;
+}
