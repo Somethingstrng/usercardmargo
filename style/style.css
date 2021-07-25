@@ -77,7 +77,6 @@ body {
 
 .usercard > * {
     display: block;
-    vertical-align: top;
     margin-top: 20px;
 }
 
